@@ -58,10 +58,6 @@ void loop() {
   }
   int DigitIndex = 0;
 
-  String Vol = String(analogRead(A0) * (5.0/1023.0), 2);
-  Serial.println(Vol);
-  InputNum = Vol;
-
   if (InputNum != " ") {
     for (int i = 0; i < InputNum.length(); i++) {
       int DecimalIndex = InputNum.indexOf('.');
