@@ -11,3 +11,18 @@ A python and arduino script to control a 4 digit 7 segment cathode display where
 - 4 (220 Om or 330 Om) Resistors
 - 1 4 digit 7 segment cathode display
   
+# Python Virtual Environment Setup
+
+## Prerequisites
+- Python 3.x installed
+- `pip` package manager available
+
+## Setup Guide
+
+### 1. Create a Virtual Environment
+Run the following command to create a virtual environment:
+```sh
+python -m venv my_env
+pip install requirements.txt
+.\venv\Scripts\activate.bat
+python3 .\DisplayController.py
